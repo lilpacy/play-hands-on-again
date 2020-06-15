@@ -1,2 +1,3 @@
+GET        /todo                   controllers.TodoController.list()
 GET        /todo/helloworld        controllers.TodoController.helloworld
 GET        /assets/*file           controllers.Assets.versioned(path="/public", file: Asset)
